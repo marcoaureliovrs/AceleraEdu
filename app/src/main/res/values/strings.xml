@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">AceleraEdu</string>
+    <string name="action_settings">Configurações</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="film_genres">Matérias</string>
+    <string name="website">https://aceleraedu.com.br</string>
+    <string name="date">23 Mar 2016</string>
+    <string name="selected_item">Item selecionado</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar ou Registrar-se</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">E-mail inválido</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_act_main">Kubyx</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="lbl_apostila">Apostila</string>
+    <string name="lbl_apresentacao">Apresentação</string>
+    <string name="lbl_exercicios">Exercícios</string>
+
+    <string name="lbl_login">Login</string>
+    <string name="lbl_cadastro">Cadastro</string>
+    <string name="lbl_video">Video</string>
+    <string name="lbl_salvar">Salvar</string>
+
+
+    <string name="lbl_descricao">Descrição</string>
+    <string name="lbl_curso">Curso</string>
+    <string name="lbl_cursos">Cursos</string>
+    <string name="lbl_materia">Matéria</string>
+    <string name="lbl_nome">Nome</string>
+
+    <string name="description">Este exemplo consiste na criação de um CardView contendo uma imagem, um titulo e uma descrição.
+    Validando paragrafo na descrição.
+    =D</string>
+
+    <string name="title_activity_logo">Logo</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="lbl_thumbnail">Thumbnail</string>
+
+    <string name="msg_sucesso">Upload realizado com sucesso</string>
+    <string name="msg_falha">Falha ao enviar arquivo</string>
+    <string name="lbl_sair">Sair</string>
+    <string name="lbl_exemplo_curso">Sistemas de Informação</string>
+    <string name="lbl_exemplo_semestre">Semestre: 04</string>
+    <string name="lbl_exemplo_materias">Matérias: 07</string>
+    <string name="lbl_exemplo_aulas">Aulas: 37</string>
+
+</resources>

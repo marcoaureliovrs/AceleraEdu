@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/ic_video_box"
+                android:layout_above="@+id/txtNumeroMaterias"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/txtNomeCurso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/lbl_exemplo_curso"
+                android:textSize="14dp"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="13dp"
+                android:id="@+id/txtSemestre"
+                android:text="@string/lbl_exemplo_semestre"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_exemplo_materias"
+                android:id="@+id/txtNumeroMaterias"
+                android:textSize="13dp"
+                android:layout_alignBaseline="@+id/txtSemestre"
+                android:layout_alignBottom="@+id/txtSemestre"
+                android:layout_toRightOf="@+id/txtSemestre"
+                android:layout_toEndOf="@+id/txtSemestre" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_exemplo_aulas"
+                android:id="@+id/txtNumeroAulas"
+                android:textSize="13dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:layout_alignBaseline="@+id/txtSemestre"
+                android:layout_alignBottom="@+id/txtSemestre"
+                android:layout_toRightOf="@+id/txtNumeroMaterias"
+                android:layout_toEndOf="@+id/txtNumeroMaterias" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
