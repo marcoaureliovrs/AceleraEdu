@@ -1,6 +1,6 @@
 # AceleraEdu
 
-Aplicativo de vídeo aulas personalizável, o objetivo desse projeto é trazer maior aproximidade entr você e seus espectadores entregando um canal mobile de publicação de seu conteúdo.
+Aplicativo de vídeo aulas personalizável, o objetivo desse projeto é trazer maior aproximidade entre você e seus espectadores entregando um canal mobile de publicação de seu conteúdo.
 
 
 Hoje o aplicativo é composto pelas seguintes telas:
@@ -10,7 +10,9 @@ Hoje o aplicativo é composto pelas seguintes telas:
     Listagem de Aulas
     Visualizar Aula
 
-As opções de cadastro e gerenciamento esta em desenvolvimento, o atual webservice roda em PHP, e esta será migrado para Nodejs, publicarei o código do BackEnd em breve.
+As opções de cadastro e gerenciamento esta em desenvolvimento, o atual webservice roda em PHP, e esta será migrado para Nodejs, segue abaixo o link do código do atual BackEnd em PHP:
+
+https://github.com/marcogorak/apiAceleraEdu
 
 
 Desde já agradeço por ter visitado esse projeto e se interessado, espero que este seja útil a você de alguma forma.
